@@ -1,0 +1,613 @@
+/* 所有界面元素的样式,均为先浅色后深色的顺序 */
+
+/* 全局 */
+
+section {
+
+background-color: rgba(255, 255, 255, 0) !important;
+
+}
+
+html {
+
+--background-color: #f0f0f000 !important;
+
+}
+
+/* 首页按钮-选中*/
+
+.css-1hlek36 {}
+
+.css-14aadh2,.css-1dxee5s {
+
+background-color: rgb(0, 95, 199) !important;
+
+}
+
+/* 左侧标签背景 */
+
+.css-a7awl9.Mui-selected {
+
+background-color: #d4f0fc37 !important;
+
+backdrop-filter: blur(7px);
+
+}
+
+.css-1pqmd8p.Mui-selected {
+
+background-color: #383c3d37 !important;
+
+backdrop-filter: blur(7px);
+
+}
+
+/* 左侧标签字体 */
+
+.css-a7awl9 span{
+
+color: #0f0f0f !important;
+
+text-shadow: 0 0 10px rgb(146 187 207);
+
+}
+
+.css-1pqmd8p span{
+
+color: #e3e3e3 !important;
+
+text-shadow: 0 0 15px rgb(66 88 99);
+
+}
+
+/* 全局背景图 */
+
+.css-1li7dvq {
+
+background-image: url('https://pic.imgdb.cn/item/669377dbd9c307b7e9726828.png') !important;
+
+background-color: rgba(255, 255, 255, 0) !important;
+
+background-size: cover;
+
+background-position: center;
+
+background-repeat: no-repeat;
+
+}
+
+.css-l3ykv8 {
+
+background-image: url('https://pic1.imgdb.cn/item/68823f1d58cb8da5c8d74300.jpg') !important;
+
+background-color: rgba(255, 255, 255, 0) !important;
+
+background-size: cover;
+
+background-position: center;
+
+background-repeat: no-repeat;
+
+color: rgb(239, 239, 239) !important;
+
+}
+
+/* 首页按钮 */
+
+.css-buo882,
+
+.css-1woqkq7 {
+
+background-color: #ffffff66 !important;
+
+backdrop-filter: blur(7px) !important;
+
+}
+
+.css-6892g4,
+
+.css-1j1wdi0 {
+
+background-color: #00000044 !important;
+
+backdrop-filter: blur(7px) !important;
+
+}
+
+/* 节点、测试站点条目 */
+
+.css-n8e8d,
+
+.css-1d9xrv7,
+
+.css-9kkeku {
+
+background-color: #ffffff22 !important;
+
+backdrop-filter: blur(10px) !important;
+
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+
+}
+
+.css-jtgpy6,
+
+.css-1mxksna,
+
+.css-9kkeku {
+
+background-color: #00000022 !important;
+
+backdrop-filter: blur(10px) !important;
+
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+
+}
+
+/* 首页统计图 */
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation0.css-1unmb9x {
+
+background-color: #ffffff33 !important;
+
+backdrop-filter: blur(7px) !important;
+
+border-color: rgba(0, 0, 0, 0.1) !important;
+
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation0.css-um6u34{
+
+background-color: #00000033 !important;
+
+backdrop-filter: blur(7px) !important;
+
+border-color: rgba(0, 0, 0, 0.1) !important;
+
+}
+
+/* 连接页表格*/
+
+.MuiDataGridVariables-583896634,
+
+.MuiDataGridVariables-2433827283{
+
+--DataGrid-t-color-background-base: #ffffff00 !important;
+
+--DataGrid-t-header-background-base: #ffffff00 !important;
+
+backdrop-filter: blur(7px) !important;
+
+}
+
+/* 通用圆角卡片 */
+
+.css-14wd3ve,
+
+.css-23cvz {
+
+backdrop-filter: blur(7px) !important;
+
+border-radius: 15px;
+
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+
+}
+
+/* 首页监控数据 */
+
+.css-fiq9q0 {
+
+backdrop-filter: blur(7px) !important;
+
+}
+
+/* MuiBox 基础样式 - 全局透明背景 */
+
+.MuiBox-root {
+
+background-color: rgba(255, 255, 255, 0) !important;
+
+}
+
+.base-container {
+
+background-color: #f0f0f000 !important;
+
+}
+
+.MuiTypography-root {
+
+background-color: rgba(0, 0, 0, 0) !important;
+
+}
+
+/* 菜单布局 - 竖向排列优化 */
+
+.the-menu {
+
+display: flex;
+
+flex-direction: column;
+
+padding: 0;
+
+margin: 0;
+
+list-style-type: none;
+
+gap: 8px;
+
+}
+
+.the-menu li {
+
+width: 100%;
+
+box-sizing: border-box;
+
+padding: 0;
+
+margin: 0;
+
+}
+
+.the-menu::after {
+
+display: none;
+
+}
+
+.layout__left {
+
+height: 100% !important;
+
+flex: 1 0 auto !important;
+
+min-width: 280px !important;
+
+}
+
+.the-menu li:hover {
+
+transform: translateX(4px);
+
+transition: transform 0.2s ease;
+
+}
+
+.the-traffic {
+
+margin-top: 30%;
+
+}
+
+/* 设置中条目的文字 */
+
+.css-1i24pk4 {
+
+background-color: transparent !important;
+
+}
+
+/* 设置条目背景-含icon、选择按钮与节点背景 */
+
+.css-1ohqk82.MuiButtonBase-root,
+
+.css-ulr2qx,
+
+.css-17rlh6j {
+
+background-color: #ffffff00 !important;
+
+}
+
+/* 特定 MuiBox 实例的背景模糊效果 */
+
+.MuiBox-root.css-79elbk {
+
+backdrop-filter: blur(2px);
+
+}
+
+.MuiBox-root.css-mbssy4,
+
+.MuiBox-root.css-1ueg5w,
+
+.MuiBox-root.css-7bkud2 {
+
+backdrop-filter: none;
+
+}
+
+/* ==================== 节点选择菜单优化 ==================== */
+
+/* 菜单容器 - 竖向排列，保持透明毛玻璃 */
+
+.MuiList-root.MuiMenu-list {
+
+display: flex !important;
+
+flex-direction: column !important;
+
+gap: 4px !important;
+
+padding: 8px !important;
+
+max-height: 70vh !important;
+
+overflow-y: auto !important;
+
+}
+
+/* 菜单项基础样式 - 保持原有透明效果 */
+
+.MuiMenuItem-root {
+
+display: flex !important;
+
+justify-content: space-between !important;
+
+align-items: center !important;
+
+width: 100% !important;
+
+border-radius: 8px !important;
+
+margin: 0 !important;
+
+padding: 8px 12px !important;
+
+transition: all 0.2s ease !important;
+
+}
+
+/* 菜单项悬停效果 - 浅色主题（半透明白色） */
+
+.MuiMenuItem-root:hover {
+
+transform: translateX(2px);
+
+background-color: rgba(255, 255, 255, 0.3) !important;
+
+}
+
+/* 菜单项悬停效果 - 深色主题（半透明黑色） */
+
+.css-l3ykv8 .MuiMenuItem-root:hover {
+
+background-color: rgba(0, 0, 0, 0.3) !important;
+
+}
+
+/* 选中项样式 - 浅色主题 */
+
+.MuiMenuItem-root.Mui-selected {
+
+background-color: rgba(0, 95, 199, 0.2) !important;
+
+border-left: 3px solid rgb(0, 95, 199) !important;
+
+}
+
+/* 选中项样式 - 深色主题 */
+
+.css-l3ykv8 .MuiMenuItem-root.Mui-selected {
+
+background-color: rgba(0, 150, 255, 0.2) !important;
+
+border-left: 3px solid rgb(0, 150, 255) !important;
+
+}
+
+/* 菜单项文字 */
+
+.MuiMenuItem-root .MuiTypography-root {
+
+flex: 1 !important;
+
+font-size: 0.9rem !important;
+
+font-weight: 500 !important;
+
+}
+
+/* 延迟标签芯片统一样式 - 保持透明毛玻璃 */
+
+.MuiMenuItem-root .MuiChip-root {
+
+margin-left: 8px !important;
+
+font-size: 0.7rem !important;
+
+min-width: 50px !important;
+
+backdrop-filter: blur(4px) !important;
+
+font-weight: 600 !important;
+
+}
+
+/* 芯片标签颜色 - 低延迟（半透明绿） */
+
+.MuiChip-colorSuccess {
+
+background-color: rgba(76, 175, 80, 0.7) !important;
+
+backdrop-filter: blur(4px) !important;
+
+}
+
+.MuiChip-colorSuccess .MuiChip-label {
+
+color: white !important;
+
+}
+
+/* 芯片标签颜色 - 中延迟（半透明蓝） */
+
+.MuiChip-colorPrimary {
+
+background-color: rgba(33, 150, 243, 0.7) !important;
+
+backdrop-filter: blur(4px) !important;
+
+}
+
+.MuiChip-colorPrimary .MuiChip-label {
+
+color: white !important;
+
+}
+
+/* 芯片标签颜色 - 高延迟（半透明橙） */
+
+.MuiChip-colorWarning {
+
+background-color: rgba(255, 152, 0, 0.7) !important;
+
+backdrop-filter: blur(4px) !important;
+
+}
+
+.MuiChip-colorWarning .MuiChip-label {
+
+color: white !important;
+
+}
+
+/* 芯片标签颜色 - 超时/失败（半透明红） */
+
+.MuiChip-colorError {
+
+background-color: rgba(244, 67, 54, 0.7) !important;
+
+backdrop-filter: blur(4px) !important;
+
+}
+
+.MuiChip-colorError .MuiChip-label {
+
+color: white !important;
+
+}
+
+/* 菜单弹出层 - 保持透明毛玻璃，不覆盖原有背景 */
+
+.MuiPaper-root.MuiMenu-paper {
+
+background-color: transparent !important;
+
+backdrop-filter: blur(12px) !important;
+
+box-shadow: none !important;
+
+}
+
+/* 菜单容器背景 - 透过毛玻璃显示背景图 */
+
+.MuiMenu-paper .MuiList-root {
+
+background-color: transparent !important;
+
+}
+
+/* 滚动条美化 - 浅色主题 */
+
+.MuiList-root.MuiMenu-list::-webkit-scrollbar {
+
+width: 6px;
+
+}
+
+.MuiList-root.MuiMenu-list::-webkit-scrollbar-track {
+
+background: rgba(0, 0, 0, 0.05);
+
+border-radius: 3px;
+
+}
+
+.MuiList-root.MuiMenu-list::-webkit-scrollbar-thumb {
+
+background: rgba(0, 0, 0, 0.3);
+
+border-radius: 3px;
+
+}
+
+.MuiList-root.MuiMenu-list::-webkit-scrollbar-thumb:hover {
+
+background: rgba(0, 0, 0, 0.5);
+
+}
+
+/* 滚动条美化 - 深色主题 */
+
+.css-l3ykv8 .MuiList-root.MuiMenu-list::-webkit-scrollbar-track {
+
+background: rgba(255, 255, 255, 0.1);
+
+border-radius: 3px;
+
+}
+
+.css-l3ykv8 .MuiList-root.MuiMenu-list::-webkit-scrollbar-thumb {
+
+background: rgba(255, 255, 255, 0.3);
+
+border-radius: 3px;
+
+}
+
+.css-l3ykv8 .MuiList-root.MuiMenu-list::-webkit-scrollbar-thumb:hover {
+
+background: rgba(255, 255, 255, 0.5);
+
+}
+
+/* ==================== 界面左上角图标自定义示例 ==================== */
+
+/*
+
+.the-logo > div svg:first-of-type {
+
+display: none;
+
+}
+
+.the-logo > div::after {
+
+content: '';
+
+display: block;
+
+width: 46px;
+
+height: 46px;
+
+left: 5px;
+
+bottom: 8px;
+
+background-image: url('https://www.example.com/1.png');
+
+background-size: contain;
+
+background-repeat: no-repeat;
+
+background-position: center;
+
+position: absolute;
+
+}
+
+.the-logo > div svg:nth-of-type(2) {
+
+display: block;
+
+margin-left: 40px;
+
+}
+
+*/
